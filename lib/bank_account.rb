@@ -15,7 +15,7 @@ end
 
 def display_balance(balance)
    # can display its balance
-   "Your balance is $#{balance}."
+   "Your Balance is $#{balance}."
 end
 
 def valid?

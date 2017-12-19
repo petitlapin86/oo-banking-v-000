@@ -23,8 +23,8 @@ def valid?
    @status == "open" && @balance > 0
 end
 
-def self.close_account
-close_account.clear# can close its account
+def close_account
+self.status = "closed" # can close its account
 end
 
 end#ends class

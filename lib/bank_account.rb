@@ -11,18 +11,22 @@ end
 
 def deposit
 # can deposit money into its account
-end 
+end
 
 def display_balance
    # can display its balance
-end 
+end
 
 def valid?
   #is valid with an open status and a balance greater than 0
-end 
+  if @status = "open" && @balance > 0
+    return true
+  else false
+  end # ends if else statement 
+end
 
 def close_account
-# can close its account  
-end 
+# can close its account
+end
 
 end#ends class

@@ -9,8 +9,9 @@ def initialize(name)
   @status = "open"
 end
 
-def deposit
+def deposit(deposit_amount)
 # can deposit money into its account
+self.balance += deposit_amount
 end
 
 def display_balance

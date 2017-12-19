@@ -13,8 +13,9 @@ def deposit
 # can deposit money into its account
 end
 
-def display_balance
+def display_balance(balance)
    # can display its balance
+   "Your balance is $#{balance}."
 end
 
 def valid?
@@ -25,8 +26,8 @@ def valid?
   end # ends if else statement 
 end
 
-def close_account
-# can close its account
+def self.close_account
+thearraynamegoeshere.clear# can close its account
 end
 
 end#ends class

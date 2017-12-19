@@ -13,7 +13,7 @@ def deposit
 # can deposit money into its account
 end
 
-def display_balance(balance)
+def display_balance
    # can display its balance
    "Your Balance is $#{balance}."
 end

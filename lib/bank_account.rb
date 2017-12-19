@@ -20,10 +20,7 @@ end
 
 def valid?
   #is valid with an open status and a balance greater than 0
-  if @status = "open" && @balance > 0
-    return true
-  else false
-  end # ends if else statement
+   @status == "open" && @balance > 0
 end
 
 def self.close_account

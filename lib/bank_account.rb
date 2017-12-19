@@ -8,4 +8,4 @@ def initialize
   @status = "open"
 end
 
-end#ends class 
+end#ends class

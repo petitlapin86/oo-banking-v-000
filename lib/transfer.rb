@@ -13,16 +13,16 @@ end
 
 
 def valid?
-sender.valid? && receiver.valid? #can check both methods are valid 
+sender.valid? && receiver.valid? #can check both methods are valid
 end
 
-def execute_transaction #executes transaction between two accounts 
+def execute_transaction #executes transaction between two accounts
   if valid? && sender.balance > amount && self.status == "pending"
     sender.balance -= amount #subtract balance from sender
-    receiver.balance += amount #add balance to receiver 
-    self.status = "complete" 
+    receiver.balance += amount #add balance to receiver
+    self.status = "complete"
   else
-    reject_transfer #if not valid account reject transfer 
+    reject_transfer #if not valid account reject transfer
   end
 end
 

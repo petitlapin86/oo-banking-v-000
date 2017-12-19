@@ -1,7 +1,7 @@
 class BankAccount
 
 
-def initialize 
+def initialize
   @name = name
   @balance = 1000
   @status = "open"

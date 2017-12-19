@@ -11,4 +11,9 @@ attr_accessor :status
     @amount = amount
 end
 
+
+def valid?
+sender.valid? && receiver.valid? #can check both methods are valid 
+end
+
 end #ends class

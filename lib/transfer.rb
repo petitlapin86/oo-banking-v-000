@@ -8,7 +8,7 @@ attr_accessor :status
     @transfer = transfer
     @receiver = receiver
     @status = "pending"
-    @amount = []
+    @amount = amount
 end
 
 end #ends class

@@ -23,11 +23,11 @@ def valid?
   if @status = "open" && @balance > 0
     return true
   else false
-  end # ends if else statement 
+  end # ends if else statement
 end
 
 def self.close_account
-thearraynamegoeshere.clear# can close its account
+close_account.clear# can close its account
 end
 
 end#ends class
